@@ -19,3 +19,8 @@ const development = {
     }
   } 
 };
+
+module.exports = {
+  development,
+  production
+};
