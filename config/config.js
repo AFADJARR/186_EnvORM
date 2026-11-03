@@ -9,3 +9,13 @@ const production = {
   dialect: process.env.DB_DIALECT
 };
 
+const development = {
+  use_env_variable: 'DATABASE_URL',
+  dialect: 'postgres',
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false
+    }
+  } 
+};
