@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/AFADJARR/186_EnvORM/issues"
   },
-  "homepage": "https://github.com/AFADJARR/186_EnvORM#readme"
+  "homepage": "https://github.com/AFADJARR/186_EnvORM#readme",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14",
+    "pg": "^8.23.1",
+    "sequelize": "^6.37.8",
+    "sequelize-cli": "^6.6.5"
+  }
 }
